@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live coding</title>
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Assessment</h1>
+    <p style="text-align: center;">Html Assessment from Prepbytes</p>
+    <hr>
+    <h3 style="text-align: center;">Table</h3>
+    <table border="1" align="center">
+
+        <tr>
+         <th style="width: 30%;">Course</th>
+         <th  style="background-color: grey; width:40%;">Contact Detail</th>
+         <th style="width:30%;"> Date of Joining</th>
+        </tr>
+        <tr>
+        <td >Elevation Academy</td>
+        <td>1234567890</td>
+        <td> 2 Dec 2022</td>
+        </tr>
+        <tr>
+            <td style="background-color: grey;" >Elevation Academy</td>
+            <td rowspan="2" style="width: 25px" >1234567890</td>
+            <td >2 Dec 2022</td>
+
+        </tr>
+        <td >Elevation Academy</td>
+        <td   style="background-color: grey; width: 25px;">2 Dec 2022</td>
+        </tr>
+    </table>
+    <hr>
+<h3 style="text-align:center">Form</h3>
+<center>
+    <form action="">
+        <label for="name">Name:</label>
+<input type="text" id="name" name="Username" value="" placeholder="Enter Name" required>
+<br><br>
+<label for="mail">Email:</label>
+<input type="email" name="Email" id="mail" placeholder="email">
+<br><br> 
+
+<label for="pass">Password:</label>
+<input type="password" name="password" id="pass" placeholder="password"><br><br>
+<label for="Phone">Phone No:</label>
+<input type="number" name="Phone no" id="Phone">
+<br>    <br>
+<label for="language">Language:</label><br><br>
+<input type="radio" name="language" id="react" value="react"><label for="react">React</label><br>
+<input type="radio" name="language" id="angular" value="angular"><label for="angular">Angular</label><br>
+<input type="radio"  name="language" id="vue"  value="vue"> <label for="vue">Vue</label><br><br>
+
+<label for="course">course:</label><br><br>
+<input type="checkbox" name="course1"  value="mern"  id="MERN"><label for="MERN">MERN</label><br>
+<input type="checkbox" name="course2"  value="mean" id="MEAN"><label for="MEAN">MEAN</label><br>
+<input type="checkbox" name="course3"  value="mevn"   id="MEVN"><label for="MEVN">MEVN</label><br>
+<br>
+<br>
+<label for="field">Field</label><br>
+<select name="field" id="field">
+
+    <option value="fe">Frontend</option>
+    <option value="be">backend </option>
+    <option value="fullstack">fullstack</option>
+</select>
+<br>
+<br>
+<input type="submit" name="submit" value="submit">
+    </form>
+
+</center>
+<hr>
+<center>
+<p>image used from absolute path</p>
+<img src="./logoPrepBytes.svg" alt="logo">
+<p>image used from relative path</p>
+<img src="data:image/png;base64,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" alt="logo"><br><br>
+<a href="https://www.prepbytes.com/" target="_blank">link should be open in another tab</a><br><br>
+<a href="https://www.prepbytes.com/">link should be open in same tab</a>
+</center>
+<hr>
+<h2>List</h2>
+<ul>
+    <li>Mobile Development</li>
+<li>Web development
+    <ul style="list-style-type: disc;">
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue</li>
+    </ul>
+</li>
+<li>Cloud services</li></ul>
+<hr>
+<pre>
+
+
+
+</pre>
+</body>
+</html>
